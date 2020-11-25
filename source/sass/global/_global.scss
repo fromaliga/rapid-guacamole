@@ -1,0 +1,37 @@
+@import 'fonts';
+@import 'typography';
+@import 'reboot';
+
+:root {
+  font-size: 14px;
+}
+
+html {
+  @include visually-hide-scrollbar();
+
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  overscroll-behavior: contain;
+
+  transition: transform 1s ease;
+}
+
+::selection {
+  color: $color-white-100;
+
+  background-color: $color-black-900;
+}
+
+a,
+button {
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}

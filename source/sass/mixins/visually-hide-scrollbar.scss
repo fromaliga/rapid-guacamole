@@ -1,0 +1,11 @@
+@mixin visually-hide-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border: 0 solid transparent;
+  }
+}

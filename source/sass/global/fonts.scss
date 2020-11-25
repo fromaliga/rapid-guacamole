@@ -1,0 +1,44 @@
+// stylelint-disable
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../fonts/TTTravels-Light.eot');
+  src: local('TT Travels Light'), local('TTTravels-Light'),
+    url('../fonts/TTTravels-Light.woff') format('woff'),
+    url('../fonts/TTTravels-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../fonts/TTTravels-Regular.eot');
+  src: local('TT Travels Regular'), local('TTTravels-Regular'),
+    url('../fonts/TTTravels-Regular.woff') format('woff'),
+    url('../fonts/TTTravels-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../fonts/TTTravels-Medium.eot');
+  src: local('TT Travels Medium'), local('TTTravels-Medium'),
+    url('../fonts/TTTravels-Medium.woff') format('woff'),
+    url('../fonts/TTTravels-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../fonts/TTTravels-DemiBold.eot');
+  src: local('TT Travels DemiBold'), local('TTTravels-DemiBold'),
+    url('../fonts/TTTravels-DemiBold.woff') format('woff'),
+    url('../fonts/TTTravels-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

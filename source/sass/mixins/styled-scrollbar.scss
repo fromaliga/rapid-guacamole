@@ -1,0 +1,20 @@
+@mixin styled-scrollbar(
+  $accent-color: $color-orange-300,
+  $bg-color: $color-white-100
+) {
+  scrollbar-width: thin;
+  scrollbar-color: $accent-color $bg-color;
+
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $bg-color;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $accent-color;
+    border: 0 solid $bg-color;
+  }
+}

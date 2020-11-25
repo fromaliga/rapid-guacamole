@@ -1,0 +1,13 @@
+doctype html
+html(lang='ru')
+  head
+    include ../base/head
+    block head
+      title #{title}
+  body
+    noscript
+      .noscript-popup
+        h1 Без JavaScript данный сайт не может работать корректно
+    #page.page
+      main.page__content.page-content
+        block content

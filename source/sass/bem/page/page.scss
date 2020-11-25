@@ -1,0 +1,12 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  background-color: $color-white-100;
+
+  &__content {
+    width: 100%;
+  }
+}

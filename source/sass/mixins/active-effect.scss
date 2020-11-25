@@ -1,0 +1,9 @@
+@mixin active-effect {
+  transition: transform $transition-ease-200;
+
+  @media (hover: hover) {
+    &:active {
+      transform: scale(0.98);
+    }
+  }
+}

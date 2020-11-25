@@ -1,0 +1,7 @@
+@mixin hover-effect {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}

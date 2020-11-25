@@ -1,0 +1,3 @@
+source/sass/vendor/**/*.scss
+source/sass/mixins/**/*.scss
+node_modules/**/.scss

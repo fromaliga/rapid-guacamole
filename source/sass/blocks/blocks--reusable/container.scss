@@ -1,0 +1,28 @@
+%container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: Max(15px, env(safe-area-inset-right));
+  padding-left: Max(15px, env(safe-area-inset-left));
+}
+
+.container {
+  &--xxl {
+    @extend %container;
+    max-width: 1280px;
+  }
+
+  &--xl {
+    @extend %container;
+    max-width: 1115px;
+  }
+
+  &--m {
+    @extend %container;
+    max-width: 1070px;
+  }
+
+  &--s {
+    @extend %container;
+    max-width: 966px;
+  }
+}

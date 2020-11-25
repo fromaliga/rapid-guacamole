@@ -1,0 +1,15 @@
+@mixin all-sizes($width, $height: '') {
+  width: $width;
+  min-width: $width;
+  max-width: $width;
+
+  @if ($height == '') {
+    height: $width;
+    min-height: $width;
+    max-height: $width;
+  } @else {
+    height: $height;
+    min-height: $height;
+    max-height: $height;
+  }
+}

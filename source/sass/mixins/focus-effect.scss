@@ -1,0 +1,19 @@
+@mixin focus-effect($border-radius: '') {
+  @if $border-radius != '' {
+    border-radius: $border-radius;
+  }
+
+  transition: box-shadow $transition-ease-200;
+
+  &:focus {
+    outline: none;
+  }
+
+  &.focus-visible {
+    box-shadow: 0 0 0 3px $color-yellow-800;
+
+    .bg--yellow-800 & {
+      box-shadow: 0 0 0 3px $color-white-100;
+    }
+  }
+}

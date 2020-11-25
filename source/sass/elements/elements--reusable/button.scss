@@ -1,0 +1,7 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include active-effect;
+}

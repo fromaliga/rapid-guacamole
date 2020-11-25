@@ -1,0 +1,4 @@
+./node_modules/**/*
+./source/js/vendor/packages/**/*
+./source/js/packages/**/*
+./build/**/*
